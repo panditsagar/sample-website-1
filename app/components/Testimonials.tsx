@@ -192,7 +192,7 @@ export default function Testimonials() {
                 {col2Items.map((item, idx) => (
                   <div
                     key={`col2-${item.id}-${idx}`}
-                    className="group rounded-3xl bg-white/[0.03]    p-7 sm:p-8 transition-all duration-500 flex flex-col justify-between shadow-2xl hover:-translate-y-1.5 cursor-default"
+                    className="group rounded-xl bg-white/[0.03]    p-7 sm:p-8 transition-all duration-500 flex flex-col justify-between shadow-2xl hover:-translate-y-1.5 cursor-default"
                   >
                     <div>
                       <div className="flex items-center justify-between gap-2 mb-6">
@@ -235,7 +235,7 @@ export default function Testimonials() {
                 {col3Items.map((item, idx) => (
                   <div
                     key={`col3-${item.id}-${idx}`}
-                    className="group rounded-3xl bg-white/[0.03]  5 p-7 sm:p-8 transition-all duration-500 flex flex-col justify-between shadow-2xl hover:-translate-y-1.5 cursor-default"
+                    className="group rounded-xl bg-white/[0.03]  5 p-7 sm:p-8 transition-all duration-500 flex flex-col justify-between shadow-2xl hover:-translate-y-1.5 cursor-default"
                   >
                     <div>
                       <div className="flex items-center justify-between gap-2 mb-6">
