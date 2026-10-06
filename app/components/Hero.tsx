@@ -189,7 +189,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 pt-8"
+          className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 pt-8 border-t border-white/10"
         >
           {/* Stat Item 1: Community */}
           <div className="flex items-center gap-3.5">
