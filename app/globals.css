@@ -12,6 +12,33 @@ body {
   color: #ffffff;
 }
 
+/* Custom Modern Dark & Electric Cyan Scrollbar UI */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #142a3a;
+  border-radius: 9999px;
+  border: 2px solid #000000;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
+
+/* Firefox scrollbar support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #142a3a #000000;
+}
+
 /* Hide scrollbar for clean marquee containers */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
