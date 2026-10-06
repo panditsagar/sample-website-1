@@ -65,7 +65,7 @@ const podcasts: PodcastEpisode[] = [
 
 export default function LatestPodcast() {
   return (
-    <section className="relative w-full bg-black py-20 sm:py-28 text-white select-none overflow-hidden">
+    <section className="relative w-full bg-black pt-10 pb-20 text-white select-none overflow-hidden">
       {/* Background Ambient Glow matching website theme */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-gradient-to-r from-blue-900/10 via-purple-900/15 to-cyan-900/10 blur-[150px] pointer-events-none rounded-full" />
 

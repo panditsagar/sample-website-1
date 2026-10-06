@@ -3,6 +3,7 @@ import FeaturedIn from "./components/FeaturedIn";
 import DocumentarySeries from "./components/DocumentarySeries";
 import VisionMission from "./components/VisionMission";
 import LatestPodcast from "./components/LatestPodcast";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <DocumentarySeries />
       <VisionMission />
       <LatestPodcast />
+      <Testimonials />
     </main>
   );
 }

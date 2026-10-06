@@ -12,7 +12,7 @@ body {
   color: #ffffff;
 }
 
-/* Hide scrollbar for clean marquee container */
+/* Hide scrollbar for clean marquee containers */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -21,7 +21,7 @@ body {
   scrollbar-width: none;
 }
 
-/* Infinite Marquee Animation */
+/* Horizontal Infinite Marquee Animation */
 @keyframes marquee {
   0% {
     transform: translateX(0%);
@@ -38,5 +38,46 @@ body {
 }
 
 .animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Vertical Infinite Marquee Animations */
+@keyframes verticalMarquee {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-vertical-marquee {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  animation: verticalMarquee 35s linear infinite;
+}
+
+.animate-vertical-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes verticalMarqueeReverse {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.animate-vertical-marquee-reverse {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  animation: verticalMarqueeReverse 35s linear infinite;
+}
+
+.animate-vertical-marquee-reverse:hover {
   animation-play-state: paused;
 }
