@@ -45,6 +45,22 @@ const podcasts: PodcastEpisode[] = [
     duration: "1hr 50min",
     coverImage: "/podcast4.png",
   },
+  {
+    id: 5,
+    episodeNumber: "Episode 5",
+    title: "Mastering Personal Freedom & High-Ticket Monetization",
+    author: "By Siddharth Rajsekar",
+    duration: "1hr 42min",
+    coverImage: "/podcast5.png",
+  },
+  {
+    id: 6,
+    episodeNumber: "Episode 4",
+    title: "The Mindset of Unstoppable Courage & Execution",
+    author: "By Siddharth Rajsekar",
+    duration: "1hr 28min",
+    coverImage: "/podcast6.png",
+  },
 ];
 
 export default function LatestPodcast() {
