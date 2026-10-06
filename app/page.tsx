@@ -1,6 +1,8 @@
 import Hero from "./components/Hero";
 import FeaturedIn from "./components/FeaturedIn";
 import DocumentarySeries from "./components/DocumentarySeries";
+import VisionMission from "./components/VisionMission";
+import LatestPodcast from "./components/LatestPodcast";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero />
       <FeaturedIn />
       <DocumentarySeries />
+      <VisionMission />
+      <LatestPodcast />
     </main>
   );
 }
