@@ -47,11 +47,28 @@ export default function Footer() {
           {/* Column 1: Brand Info (Span 4) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full border border-cyan-400/40 bg-cyan-950/60 flex items-center justify-center text-cyan-400 shadow-[0_0_12px_rgba(0,240,255,0.2)]">
-                <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                </svg>
-              </div>
+             <Link href="/" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 rounded-full flex items-center justify-center   border-white/30 bg-white/10 group-hover:bg-white/20 transition">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                className="w-5 h-5 text-white"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  d="M12 4C8 4 6 6 6 9c0 4 6 3 6 7 0 3-2 5-6 5"
+                  strokeLinecap="round"
+                />
+                <path
+                  d="M18 7c0-2-1.5-3.5-3.5-3.5S11 5 11 7c0 3.5 7 2.5 7 6.5 0 2.5-2 3.5-4.5 3.5"
+                  strokeLinecap="round"
+                  opacity="0.6"
+                />
+              </svg>
+            </div>
+            
+          </Link>
               <span className="text-2xl font-bold text-white tracking-wider">
                 Siddharth Rajsekar
               </span>
