@@ -101,7 +101,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="relative w-full bg-black pt-10  pb-20 text-white select-none overflow-hidden">
+    <section className="relative w-full bg-black pt-10  pb-10 text-white select-none overflow-hidden">
       {/* Background Ambient Radial Glow */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[450px] bg-gradient-to-r from-cyan-900/10 via-purple-900/15 to-blue-900/10 blur-[160px] pointer-events-none rounded-full" />
 

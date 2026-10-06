@@ -4,6 +4,7 @@ import DocumentarySeries from "./components/DocumentarySeries";
 import VisionMission from "./components/VisionMission";
 import LatestPodcast from "./components/LatestPodcast";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <VisionMission />
       <LatestPodcast />
       <Testimonials />
+      <Footer />
     </main>
   );
 }
+
